@@ -1,0 +1,52 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+                                  
+.login {
+    
+    border: 1px solid #CBD5E1;
+    border-radius: 12px; 
+    width: 369px;
+    padding:32px;
+}
+.signup-form {
+     margin-top: 50px;
+
+}
+#username, #email, #password, #confirmpassword {
+    border: 1px solid #CBD5E1;
+    margin: 10px 0;
+}
+
+#username, #email, #password, #confirmpassword, button {
+    padding: 13px 10px;
+    width: 90%;
+    border-radius: 10px;
+   
+}
+.logo img {
+    margin-bottom: -15px;
+}
+button {
+    background-color:#9747FF;
+    border: none;
+    margin: 20px 0;
+    color: azure;
+    font-weight: 500;
+
+}
+.color-purple {
+    color:#9747FF;
+}
+.anAccount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}

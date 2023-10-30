@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/signup.css">
+    <title>Verification</title>
+</head>
+<body>
+    <div class="signup">
+        <div class="logo">
+            <img src="assets/images/Frame 1.png" alt="logo">
+            <p>Create an Account</p>
+        </div>
+        <div class="signup-form">
+            <form action="#">
+                <h3>Enter Verification Code</h3>
+                <p>A six digit Verification code has been sent to your email address example@example.com</p>
+                <div class="input-field">
+                    <input type="number">
+                    <input type="number" disabled>
+                    <input type="number" disabled>
+                    <input type="number" disabled>
+                    <input type="number" disabled>
+                    <input type="number" disabled>
+                </div>
+                <p>Resend after 59 seconds</p>                
+                <button id="verificationBtn">Verify Email Address</button>
+            </form>
+        </div>
+        <div class="anAccount">
+            <p>Already have an account? <a href='./login.html' style="text-decoration: none;">
+                <span class="color-purple">Sign in</span></a> 
+            </p>
+        </div>
+        <!-- The Modal  -->
+        <div id="verificationModal" class="modal">
+          <!-- Modal content  -->
+          <div class="verification-modal-content">
+            <!-- <span class="close-verification-modal">&times;</span> -->
+            <div class="modal-icon"><img src="assets/images/check-circle.png" alt="" height="100px"></div>
+            <div class="modal-text">
+                <h1>Verification Successful</h1>
+                <p>You will automatically be redirected to your login page after <b>10 seconds</b>. </p>
+            </div>    
+          </div>
+        </div>
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("verificationModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("verificationBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close-verification-modal")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+        modal.style.display = "block";
+
+        setTimeout(() => {
+            window.location.replace('./login.html')
+            }, 5000);
+
+        
+        }
+    </script>
+</body>
+</html>
