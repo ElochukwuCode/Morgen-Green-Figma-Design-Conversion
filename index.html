@@ -11,6 +11,18 @@
     <title>Home</title>
 </head>
 <body>
+    <div>
+        <div class="mobile-div-logo">
+          <img src="assets/images/Frame 1.png" alt="logo" />
+          <img
+            src="assets/images/GridFill.png"
+            alt="grid"
+            style= "background-color: #9747FF;
+              padding: 8px;
+              border-radius: 8px;"
+            onclick= "showNav()"
+          />
+        </div>
     <nav>
         <div class="nav-items">
             <img src="assets/images/Frame 1.png" alt="logo">
@@ -19,7 +31,7 @@
             <div class="nav-products"><p>Resources</p><img src="assets/images/chevron-down.png" alt="arrow"></div>            
             <p>Pricing</p>
         </div>
-        <div>
+        <div class="login-signup-btns">
             <a href='./login.html'>
                 <button class="login-btn" style="cursor: pointer;">Log in</button>
             </a>
@@ -28,21 +40,40 @@
             </a>
         </div>        
     </nav>
+    <div class="div-for-mobile" id="div-for-mobile">
+        <ul>
+          <a href="./index.html" class="mobile-nav-login">
+            <li class="mobile-nav-login">Log in</li>
+          </a>
+          <a href="./signup.html" class="mobile-nav-signup">
+            <li class="mobile-nav-signup">Sign up</li>
+          </a>
+          <li>Home</li>
+          <li> Products</li>
+          <li>Resources</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
     <hr>
     <div class="providing">
         <div class="d-flex justify-content-center mt-5">
             <div>
-                <h1 class="text-center d-flex">Providing
-                    <div class="mx-2 text_change">
-                        <span class="mb-2">Optimal</span>
-                        <span class="mb-2">Efficient</span>
-                        <span class="mb-2">Simple</span>
-                    </div>
-                    <!-- Efficient
-                    Simple -->
-                    Customer
-                    Service</h1>
-                <!-- <progress value="80" max="100"></progress> -->
+                <h1 id="break-providing-text">
+                    Providing <span>Optimal</span> Customer Service
+                  </h1>
+                <div class="animated-prov-text">  
+                    <h1 class="text-center d-flex">Providing
+                        <div class="mx-2 text_change">
+                            <span class="mb-2">Optimal</span>
+                            <span class="mb-2">Efficient</span>
+                            <span class="mb-2">Simple</span>
+                        </div>
+                        <!-- Efficient
+                        Simple -->
+                        Customer
+                        Service</h1>
+                    <!-- <progress value="80" max="100"></progress> -->
+                </div>
     
             </div>
         </div>
@@ -83,8 +114,9 @@
     </div>
     <div class="logos-div">
         <div>
-            <p class="partners">Partners</p>
+            <!-- <p class="partners">Partners</p> -->
             <div class="logoss">
+                <p class="partners">Partners</p>
                 <img src="assets/images/Frame 1000005532.png" alt="google" id="logo-grp-1">
                 <img src="assets/images/Frame 1000005533.png" alt="stripe" id="logo-grp-1">
                 <img src="assets/images/Pitch svg.png" alt="pitch logo" id="logo-grp-1">
@@ -115,7 +147,7 @@
             <div class="standard-plan">
                 <h3>Standard plan</h3>
                 <hr class="plans-horizoltal-rule">
-                <img src="assets/images/Price.png" alt="price"> <br>
+                <img src="assets/images/Price.png" alt="price" id="plan-price"> <br>
                 <button>Get Started</button>
                 <hr class="plans-horizoltal-rule">
                 <img src="assets/images/List.png" alt="list">
@@ -123,7 +155,7 @@
             <div class="standard-plan">
                 <h3>Premium plan</h3>
                 <hr class="plans-horizoltal-rule">
-                <img src="assets/images/Price (1).png" alt="price"><br>
+                <img src="assets/images/Price (1).png" alt="price" id="plan-price"><br>
                 <button>Get Started</button>
                 <hr class="plans-horizoltal-rule">
                 <img src="assets/images/List (1).png" alt="list">
@@ -292,5 +324,16 @@
 
     <script src="assets/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        let mobileDiv = document.querySelector(".div-for-mobile")
+        function showNav() {
+            mobileDiv.classList.toggle('first')
+            if(mobileDiv.classList.contains('first')) {
+                mobileDiv.style.display = 'block';               
+            }else {
+                mobileDiv.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

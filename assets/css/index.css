@@ -40,6 +40,15 @@ nav {
     margin-left: 15px;
     color: #fff;
 }
+#break-providing-text {
+    display: none;
+}
+.div-for-mobile {
+    display: none;
+}
+.mobile-div-logo{
+    display: none;
+}
 .providing{
     display: flex;
     flex-direction: column;
@@ -159,6 +168,7 @@ body{
     font-weight: 700;
     font-size:36px;
     line-height: 60px;
+    margin-right: 100px;
 }
 .why-exchange-div {
     display: flex;
@@ -620,4 +630,301 @@ footer {
     letter-spacing: 0;
     line-height: 26.6px;
   
+  }
+  @media (max-width: 1000px) {
+    .plans {
+        justify-content: center;
+        gap:40px;
+    }  
+    .logoss {
+        gap: 30px;
+    }
+    .partners {
+        margin-right: 0;
+    }
+    .FAQ .faqs img {
+        height: 30px;
+    }
+    .FAQ .faqs h4 {
+        padding-right: 28px;
+    }
+    .start-journey{
+        padding-top: 12px;
+    }
+    .start-journey h2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .start-journey p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 5px 0 20px;
+    }
+    .laptop-div {
+        overflow-x: hidden;
+    }
+    .laptop {
+        width: 700px;
+    }
+    .rainbow {
+        width: 700px;
+    }
+  
+    .providing h1 {
+        font-size: 45px;
+     }
+     .nav-items {
+        width: 70%;
+        justify-content: space-evenly;
+    }
+  }
+  @media (max-width: 800px) {
+    .nav-items, .login-signup-btns {
+        display: none;
+    }
+    nav {
+        align-items: center;
+        padding: 10px 0;
+        margin-left: 0;
+    }
+    .mobile-div-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 50px 1px;
+    }
+    .div-for-mobile {
+        /* display: block; */
+        margin-left: -30px;
+    }
+    .div-for-mobile li{
+        list-style-type: none;
+        border-bottom: 1px solid #827f7f;
+        padding: 10px 20px;
+        text-align: center;
+        width: 100vw;
+        font-weight: 700;
+    }
+    .div-for-mobile li:hover {
+        background-color: rgb(111, 218, 222);
+    }
+    .div-for-mobile .mobile-nav-login {
+        background-color: #9747FF;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .div-for-mobile .mobile-nav-signup {
+        background-color: #6B7280;
+        color: #ffffff;
+        text-decoration: none;
+    }
+  
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }   
+    .standard-plan {
+        width: 80%;
+        padding: 30px 17px;
+    }  
+    .forbes {
+        padding: 25px 10px;
+    }
+    .forbes h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .forbes img {
+        height: 35px;
+    }
+    .partners {
+        font-weight: 600;
+        font-size:25px;       
+    }
+    .logoss #logo-grp-1 {
+        height: 25px;
+    }
+    .logoss #logo-grp-2 {
+        height: 50px;
+    }
+    .widgets {
+        gap: 15px;
+    }
+    .widgets img {
+        height: 110px
+    }
+    .stories {
+        flex-direction: column;
+        align-items: center;  
+        gap: 10px;
+    }
+    .story {
+        width: 90%;
+    }
+    .start-journey h2 {
+        white-space: nowrap;
+    }
+    .start-journey-img {
+        overflow-x: hidden;
+    }
+    .footer-items ul{
+        flex-direction: column;
+    }       
+    footer {
+        height: 180px;
+    }
+    .laptop {
+        width: 580px;
+    }
+    .rainbow {
+        width: 600px;
+    }
+    .providing{
+        margin: 30px 0;
+    }
+    .providing h1 {
+        font-size: 35px;
+    }
+  }
+  @media (max-width: 600px) {
+    .logoss {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .partners {
+        margin-right: 0;
+    }
+    .widgets {
+        gap: 50px;
+        flex-wrap: wrap;  
+        justify-content: center;  
+    }
+    .widgets img {
+        height: 160px
+    }
+    .standard-plan {
+        width: 55%;
+    }
+    #plan-price{
+        height: 80px;
+    }
+    .story-head {
+        margin-left: 0;
+        align-items: center;
+    }    
+    .story-head h1 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45px;
+    }  
+    .FAQ-head {
+        padding: 0 10px;
+    }
+    .blog-posts .frame-2 {
+        left: 28px;
+    }  
+    .blog-posts .text-wrapper-5 {
+        width: 200px;
+    }
+    .blog-posts .text-wrapper-4 {
+        width: 200px;
+        white-space: wrap;
+        text-align: left;
+    }
+    .blog-posts .blog {
+        width: 90vw;
+    }
+    .blog-posts .text-wrapper {
+    width: 200px;
+    top: 95px;
+    left: 28px;
+    }
+    .blog-posts .text-wrapper-2 {
+    top: 70px;
+    left: 28px;
+    }
+    .blog-posts .p {
+    width: 200px;
+    top: 180px;
+    left: 28px;
+    }
+    .blog-posts .text-wrapper-3 {
+    width: 200px;
+    top: 95px;
+    left: 28px;
+    }
+    .start-journey-img {
+        display: none;
+    }
+    .start-journey-div {
+        height: 200px;
+    }
+    .start-journey h2 {
+        white-space: wrap;
+    }
+    .subscribe-div form {
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        align-items: flex-start;
+    }
+    .subscribe-div {
+        height:150px;
+    }
+    .laptop {
+        width: 450px;
+    }
+    .rainbow {
+        width: 500px;
+    }
+    .providing p {
+        text-wrap: wrap;
+        text-align: center;
+    }
+    .providing .animated-prov-text {
+        display: none;
+    }
+    #break-providing-text {
+        display: block;
+        text-align: center;
+        font-size: 28px;
+    }
+    .providing {
+        padding: 15px 10px;
+    }
+  }
+  @media (max-width: 450px) {       
+    footer {
+        height: 130px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-items {
+        display: none;
+    }
+    .laptop {
+        width: 280px;
+    }
+    .rainbow {
+        width: 400px;
+    }
+    .slanty {
+        height: 22.29px;
+        margin-top: 270px;
+    }
+    .providing-btns{
+        display: flex;
+        gap: 3px;
+        margin-bottom: -100px;
+    }
+    .providing-btns button {
+        width: 120px;
+        height: 35px;
+        border-radius: 12px;
+        padding: 7px 5px 20px;
+        font-size: 13px;
+        font-weight: 700;
+    }
   }

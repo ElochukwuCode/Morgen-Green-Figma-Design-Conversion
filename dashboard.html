@@ -1,475 +1,304 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/dashboardstyleguide.css" />
-        <link rel="stylesheet" href="assets/css/dashboard.css" />
-        <title>Dashboard</title>
-    </head>
-    <body>
-        <div class="dashboard">
-            <div class="div">
-                <div class="search">
-                    <div class="overlap-group">
-                        <input class="input" placeholder="Search" type="text" /> <img class="img" src="assets/images/search 1.png" />
-                    </div>
-                </div>
-                <div class="text-wrapper">Hello Bolaji 👋🏼,</div>
-                <div class="frame">
-                    <div class="frame-2">
-                        <div class="group"><img class="vuesax-linear" src="assets/images/profile-2user.png" /></div>
-                        <div class="frame-3">
-                            <div class="text-wrapper-2">Total Customers</div>
-                            <div class="text-wrapper-3">5,423</div>
-                        </div>
-                    </div>
-                    <div class="frame-2">
-                        <div class="group"><img class="vuesax-linear-2" src="assets/images/profile-tick.png" /></div>
-                        <div class="frame-3">
-                            <div class="text-wrapper-2">Premium Users</div>
-                            <div class="text-wrapper-3">1,893</div>
-                        </div>
-                    </div>
-                    <div class="frame-2">
-                        <div class="group"><img class="vuesax-linear-3" src="assets/images/monitor.png" /></div>
-                        <div class="frame-3">
-                            <div class="text-wrapper-2">Active Now</div>
-                            <div class="text-wrapper-3">189</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="frame-wrapper">
-                    <div class="overlap-group-wrapper">
-                        <div class="overlap-group-2">
-                            <div class="e-change-wrapper"><div class="e-change">e&nbsp;&nbsp; change</div></div>
-                            <img class="vector" src="img/vector-2.svg" />
-                        </div>
-                    </div>
-                </div>
-                <div class="table">
-                    <div class="div-wrapper"><div class="text-wrapper-4">All Customers</div></div>
-                    <div class="content">
-                        <div class="input-dropdown">
-                            <div class="input-dropdown-base">
-                                <div class="input-with-label">
-                                    <div class="content-wrapper">
-                                        <div class="content-2">
-                                            <img class="img-2" src="assets/images/search 1.png" /> <input class="text" placeholder="Search" type="text" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="button" >
-                                <button class="button-base" id="myBtn">
-                                    <img class="img-2" src="assets/images/sort-descending.png" />
-                                    <div class="text-2">Sort</div>
-                                </button>
-                                <div id="myModal" class="modal">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <title>Dashboard2</title>
+</head>
+<body>
+    <div class="side-bar main-side-bar">
+        <div>
+            <a href="index.html"><img src="assets/images/Frame 1.png" alt="logo"></a>
+        </div>
+        <div class="side-bar-button">
+            <div><img src="assets/images/GridFill.png" alt="gridfill">Dashboard</div>
+        </div>
+        <div class="list-item">
+            <img class="img-3" src="assets/images/Folder.png" />
+            <p>Products and Orders</p>
+        </div>
+        <div class="list-item">
+            <img class="img-3" src="assets/images/user-square 1.png" />
+            <p>Customers</p>
+        </div><div class="list-item">
+            <img class="img-3" src="assets/images/2 User.png" />
+            <p>Staff</p>
+        </div>
+        <div class="admin-details">
+            <div class="main-details">
+                <img src="assets/images/Ellipse 8.png" alt="Admin img">
+                <div>
+                    <p class="staff-name-name">Bolaji Adeleke</p>
+                    <p class="staff-name-email">Admin</p>
+                </div> 
+            </div>
+            <img class="chevron" src="assets/images/chevron-down.png" alt="chevron">            
+        </div>
+    </div>
 
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                      <!-- <span class="close">&times;</span> -->
-                                      <p>Sort - Date</p>
-                                      <div class="close">
-                                        <img src="assets/images/sort-descending.png" alt="icon" >
-                                        <p>Most recent</p>
-                                      </div>
-                                      <div class="close">
-                                        <img src="assets/images/sort-descending.png" alt="icon">
-                                        <p>Oldest</p>
-                                      </div>
-                                    </div>
-                                  
-                                </div>
-                            </button>
-                           
-                            <button class="button">
-                                <div class="button-base-2">
-                                    <img class="img-2" src="assets/images/Filters lines.png" />
-                                    <div class="text-2">Filters</div>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="content-3">
-                        <div class="column">
-                            <div class="table-header-cell">
-                                <div class="table-header"><div class="text-3">Customer Name</div></div>
-                            </div>
-                            <div class="table-cell"><div class="text-4">Joel Abiodun Bisola</div></div>
-                            <div class="table-cell"><div class="text-4">James Jameson James</div></div>
-                            <div class="table-cell"><div class="text-4">Wah izit Tuya</div></div>
-                            <div class="table-cell"><div class="text-4">Abubakar Rukayat</div></div>
-                        </div>
-                        <div class="column-2">
-                            <div class="table-header-cell">
-                                <div class="table-header"><div class="text-5">Phone number</div></div>
-                            </div>
-                            <div class="table-cell"><div class="text-6">(+234) 90-0118-1343</div></div>
-                            <div class="table-cell"><div class="text-6">(+234) 90-0118-1343</div></div>
-                            <div class="table-cell"><div class="text-6">(+234) 90-0118-1343</div></div>
-                            <div class="table-cell"><div class="text-6">(+234) 90-0118-1343</div></div>
-                        </div>
-                        <div class="column-3">
-                            <div class="table-header-cell">
-                                <div class="table-header"><div class="text-5">Country</div></div>
-                            </div>
-                            <div class="table-cell"><div class="text-7">Nigeria</div></div>
-                            <div class="table-cell"><div class="text-7">Nigeria</div></div>
-                            <div class="table-cell"><div class="text-7">Nigeria</div></div>
-                            <div class="table-cell"><div class="text-7">Nigeria</div></div>
-                        </div>
-                        <div class="column-4">
-                            <div class="table-header-cell">
-                                <div class="table-header"><div class="text-5">Email</div></div>
-                            </div>
-                            <div class="table-cell"><div class="text-8">example@example.com</div></div>
-                            <div class="table-cell"><div class="text-8">example@example.com</div></div>
-                            <div class="table-cell"><div class="text-8">example@example.com</div></div>
-                            <div class="table-cell"><div class="text-8">example@example.com</div></div>
-                        </div>
-                        <div class="column-5">
-                            <div class="table-header-cell">
-                                <div class="table-header"><div class="text-3">Status</div></div>
-                            </div>
-                            <div class="table-cell">
-                                <div class="badge">
-                                    <div class="badge-base">
-                                        <div class="dot"><div class="dot-2"></div></div>
-                                        <div class="text-9">Premium</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="table-cell">
-                                <div class="badge">
-                                    <div class="badge-base">
-                                        <div class="dot"><div class="dot-2"></div></div>
-                                        <div class="text-10">Premium</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="table-cell">
-                                <div class="badge-base-wrapper">
-                                    <div class="badge-base-2">
-                                        <div class="dot"><div class="dot-3"></div></div>
-                                        <div class="text-11">Standard</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="table-cell">
-                                <div class="badge-base-wrapper">
-                                    <div class="badge-base-2">
-                                        <div class="dot"><div class="dot-3"></div></div>
-                                        <div class="text-12">Standard</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column-6">
-                            <div class="table-header-cell-2"></div>
-                            <div class="dropdown-wrapper">
-                                <div class="div-2"><img class="img-2" src="assets/images/Group 1.png" /></div>
-                            </div>
-                            <div class="dropdown-wrapper">
-                                <div class="div-2"><img class="img-2" src="assets/images/Group 1.png" /></div>
-                            </div>
-                            <div class="dropdown-wrapper">
-                                <div class="div-2"><img class="img-2" src="assets/images/Group 1.png" /></div>
-                            </div>
-                            <div class="dropdown-wrapper">
-                                <div class="div-2"><img class="img-2" src="assets/images/Group 1.png" /></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pagination">
-                        <button class="button-base-3">
-                            <img class="img-2" src="assets/images/arrow-left.png" />
-                            <div class="text-13">Previous</div>
-                        </button>
-                        <div class="pagination-numbers">
-                            <div class="number">1</div>
-                            <div class="number-2">2</div>
-                            <div class="number-2">3</div>
-                        </div>
-                        <button class="button-base-3">
-                                <div class="text-13">Next</div>
-                                <img class="img-2" src="assets/images/arrow-right.png" />
-                        </button>
-                    </div>
+    <div class="side-bar second-side-bar">
+        <div>
+            <a href="index.html"><img src="assets/images/Vector 2.png" alt="logo"></a>
+        </div>
+        <div class="side-bar-button">
+            <div><img src="assets/images/GridFill.png" alt="gridfill"></div>
+        </div>
+        <div class="list-item">
+            <img class="img-3" src="assets/images/Folder.png" />
+        </div>
+        <div class="list-item">
+            <img class="img-3" src="assets/images/user-square 1.png" />
+        </div><div class="list-item">
+            <img class="img-3" src="assets/images/2 User.png" />
+        </div>
+        <div class="admin-details">
+            <div class="main-details">
+                <img src="assets/images/Ellipse 8.png" alt="Admin img">
+                <!-- <div>
+                    <p class="staff-name-name">Bolaji Adeleke</p>
+                    <p class="staff-name-email">Admin</p>
+                </div>  -->
+            </div>
+            <!-- <img class="chevron" src="assets/images/chevron-down.png" alt="chevron">             -->
+        </div>
+    </div>
+
+
+
+    <div class="dashboard">
+        <div class="search">
+            <div class="text-wrapper">Hello Bolaji 👋🏼,</div>
+            <div class="search-div"><input class="input" placeholder="Search" type="text" /> <img class="img" src="assets/images/search 1.png" /></div>
+        </div>
+
+        <div class="counts">
+            <div class="customer-count">
+                <div class="count-img"><img src="assets/images/profile-2user.png" alt="profile-icon"></div>
+                <div class="customer-count-inner">
+                    <p>Total Customers</p>
+                    <h2>5,423</h2>
                 </div>
-                <div class="row">
-                    <div class="card-task">
-                        <div class="cadr-body">
-                            <div class="frame-4">
-                                <div class="title"><div class="text-wrapper-5">Sales Performance</div></div>
-                                <div class="select-wrapper">
-                                    <div class="select">
-                                        <div class="input-content">
-                                            <div class="input-content-2">
-                                                <div class="label">Duration</div>
-                                                <div class="placehoder">This Week</div>
-                                            </div>
-                                            <img class="img-3" src="assets/images/chevron-down.png" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="conent">
-                                <div class="graph-wrapper">
-                                    <div class="graph">
-                                        <div class="overlap-group-3">
-                                            <!-- <img class="ellipse" src="img/ellipse-6.svg" /> <img class="ellipse-2" src="img/ellipse-5.svg" /> -->
-                                        </div>
-                                    </div>      
-                                </div>
-                                <div class="frame-5">
-                                    <div class="div-3">
-                                        <img class="img-3" src="assets/images/check-circle.png" />
-                                        <div class="frame-6">
-                                            <div class="text-wrapper-6">76%</div>
-                                            <div class="text-wrapper-7">Profit</div>
-                                        </div>
-                                    </div>
-                                    <div class="div-3">
-                                        <img class="img-3" src="assets/images/trending-up.png" />
-                                        <div class="frame-6">
-                                            <div class="text-wrapper-6">32%</div>
-                                            <div class="text-wrapper-7">Expenses</div>
-                                        </div>
-                                    </div>
-                                    <div class="div-3">
-                                        <img class="img-3" src="assets/images/trending-down.png" />
-                                        <div class="frame-6">
-                                            <div class="text-wrapper-6">13%</div>
-                                            <div class="text-wrapper-7">Loses</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-team">
-                        <div class="content-4">
-                            <div class="title-2"><div class="text-wrapper-5">Staff</div></div>
-                            <div class="frame-7">
-                                <div class="th">
-                                    <div class="tr">
-                                        <div class="td"><div class="text-wrapper-8">Name</div></div>
-                                        <div class="td"><div class="text-wrapper-8">Role</div></div>
-                                    </div>
-                                </div>
-                                <div class="div-3">
-                                    <div class="team-tr">
-                                        <div class="frame-8">
-                                            <div class="frame-9"></div>
-                                            <div class="frame-10">
-                                                <div class="div-2">
-                                                    <div class="jitu-chauhan">Chidinma Amanda</div>
-                                                    <div class="jitu-example-com">Chi.ama@example.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-director-wrapper"><div class="project-director">Human Resources</div></div>
-                                        <img class="frame-11" src="assets/images/Frame 572.png" />
-                                    </div>
-                                </div>
-                                <div class="div-3">
-                                    <div class="team-tr">
-                                        <div class="frame-8">
-                                            <div class="frame-12"></div>
-                                            <div class="frame-13">
-                                                <div class="div-2">
-                                                    <div class="jitu-chauhan">Umar Sultan</div>
-                                                    <div class="jitu-example-com">Umar.s@example.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-director-wrapper"><div class="project-director">Project Manager</div></div>
-                                        <img class="frame-11" src="assets/images/Frame 572.png" />
-                                    </div>
-                                </div>
-                                <div class="div-3">
-                                    <div class="team-tr">
-                                        <div class="frame-8">
-                                            <div class="frame-14"></div>
-                                            <div class="frame-15">
-                                                <div class="div-2">
-                                                    <div class="jitu-chauhan">Oyinloye Afolabi</div>
-                                                    <div class="jitu-example-com">Oyin@example.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-director-wrapper"><div class="project-director">Graphic Designer</div></div>
-                                        <img class="frame-11" src="assets/images/Frame 572.png" />
-                                    </div>
-                                </div>
-                                <div class="div-3">
-                                    <div class="team-tr">
-                                        <div class="frame-8">
-                                            <div class="frame-16"></div>
-                                            <div class="frame-17">
-                                                <div class="div-2">
-                                                    <div class="jitu-chauhan">Enemuo Johnson</div>
-                                                    <div class="jitu-example-com">John@example.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-director-wrapper"><div class="project-director">Backend Developer</div></div>
-                                        <img class="frame-11" src="assets/images/Frame 572.png" />
-                                    </div>
-                                </div>
-                                <div class="div-3">
-                                    <div class="team-tr">
-                                        <div class="frame-8">
-                                            <div class="frame-18"></div>
-                                            <div class="frame-19">
-                                                <div class="div-2">
-                                                    <div class="jitu-chauhan">Omosofe Oludayo</div>
-                                                    <div class="jitu-example-com">O.O@example.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-director-wrapper"><div class="project-director">Digital Marketer</div></div>
-                                        <img class="frame-11" src="assets/images/Frame 572.png" />
-                                    </div>
-                                </div>
-                                <div class="div-3">
-                                    <div class="team-tr">
-                                        <div class="frame-8">
-                                            <div class="frame-20"></div>
-                                            <div class="frame-19">
-                                                <div class="div-2">
-                                                    <div class="jitu-chauhan">Omosofe Oludayo</div>
-                                                    <div class="jitu-example-com">O.O@example.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-director-wrapper"><div class="project-director">Digital Marketer</div></div>
-                                        <img class="frame-11" src="assets/images/Frame 572.png" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="customer-count">
+                <div class="count-img"><img src="assets/images/profile-tick.png" alt="profile icon"></div>
+                <div class="customer-count-inner">
+                    <p>Premium Users</p>
+                    <h2>1,893</h2>
                 </div>
-                <div class="bottom">
-                    <div class="chart">
-                        <div class="summary-heading">
-                            <div class="frame-21"><div class="text-wrapper-9">Summary</div></div>
-                            <div class="frame-22">
-                                <div class="input-content-wrapper">
-                                    <div class="input-content-3">
-                                        <div class="input-content-2">
-                                            <div class="label-2">Duration</div>
-                                            <div class="placehoder">This Week</div>
-                                        </div>
-                                        <img class="fi-chevron-down" src="assets/images/chevron-down.png" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="graph-bar">
-                            <div class="x-axis">
-                                <div class="text-wrapper-10">100k</div>
-                                <div class="text-wrapper-11">80k</div>
-                                <div class="text-wrapper-11">60k</div>
-                                <div class="text-wrapper-11">40k</div>
-                                <div class="text-wrapper-11">20k</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle"></div></div>
-                                <div class="text-wrapper-12">Oct 10</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-2"></div></div>
-                                <div class="text-wrapper-12">Oct 11</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-3"></div></div>
-                                <div class="text-wrapper-12">Oct 12</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-4"></div></div>
-                                <div class="text-wrapper-12">Oct 13</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 14</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-6"></div></div>
-                                <div class="text-wrapper-12">Oct 15</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 16</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 16</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 16</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 16</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 16</div>
-                            </div>
-                            <div class="bar">
-                                <div class="rectangle-wrapper"><div class="rectangle-5"></div></div>
-                                <div class="text-wrapper-12">Oct 16</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="side-menu">
-                    <div class="overlap">
-                        <div class="overlap-2">
-                            <div class="text-wrapper-13">Dashboard</div>
-                            <img class="grid-fill" src="assets/images/GridFill.png" />
-                        </div>
-                        <div class="list-menu">
-                            <img class="img-3" src="assets/images/Folder.png" />
-                            <div class="text-wrapper-14">Products and Orders</div>
-                        </div>
-                        <div class="list-menu-2">
-                            <div class="frame-23">
-                                <img class="img-3" src="assets/images/user-square 1.png" />
-                                <div class="text-wrapper-15">Customers</div>
-                            </div>
-                        </div>
-                        <div class="list-menu-3">
-                            <div class="frame-23">
-                                <img class="img-3" src="assets/images/2 User.png" />
-                                <div class="text-wrapper-15">Staff</div>
-                            </div>
-                        </div>
-                        <div class="frame-24">
-                            <img class="ellipse-3" src="assets/images/Ellipse 8.png" />
-                            <div class="frame-25">
-                                <div class="group-2">
-                                    <div class="overlap-group-4">
-                                        <div class="text-wrapper-16">Bolaji Adeleke</div>
-                                        <div class="text-wrapper-17">Admin</div>
-                                    </div>
-                                </div>
-                                <img class="img-3" src="assets/images/chevron-down.png" />
-                            </div>
-                        </div>
-                        <a href="index.html"><img class="frame-26" src="assets/images/Frame 1.png" /></a>
-                    </div>
+            </div>
+            <div class="customer-count">
+                <div class="count-img"><img src="assets/images/monitor.png" alt="monitor icon"></div>
+                <div class="customer-count-inner">
+                    <p>Active Now</p>
+                    <h2>189</h2>
                 </div>
             </div>
         </div>
-        <script src="assets/js/index.js"></script>
 
-    </body>
+        <div class="sales-staff-section">
+            <div class="sales-section">
+                <div class="sales-head">                    
+                    <p class="sales-performance">Sales Performance</p>
+                    <div class="sales-duration-div">
+                        <div class="sales-duration">
+                            <p class="sales-section-duration">Duration</p>
+                            <p>This week</p>
+                        </div>
+                        <img src="assets/images/chevron-down.png" alt="arrow">
+                    </div>
+                </div>
+                <div class="sales-div-img" >
+                    <img src="assets/images/graph.png" alt="graph">
+                </div>
+                <div class="sales-div-footer">
+                    <div>
+                        <img src="assets/images/check-circle.png" alt="check-circle">
+                        <h5>76%</h5>
+                        <p>Profit</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/trending-up.png" alt="trending-up">
+                        <h5>32%</h5>
+                        <p>Expenses</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/trending-down.png" alt="trending-down">
+                        <h5>13%</h5>
+                        <p>Losses</p>
+                    </div>
+                </div>
+            </div>
+            <div class="staff-section">
+                <p class="staff-header">Staff</p>
+                <div class="staff-section-table">
+                    <table>
+                        <tr class="staff-section-th">
+                            <th>Name</th>
+                            <th> Role</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="staff-name-td">
+                                    <img src="assets/images/Frame 576.png" alt="chidimma img">
+                                    <div>
+                                        <p class="staff-name-name">Chidimma Amanda</p>
+                                        <p class="staff-name-email">chi.mma@example.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="staff-role">Human Resources</td>
+                            <td class="staff-3dot"><img src="assets/images/Group 1.png" alt="3-dots"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="staff-name-td">
+                                    <img src="assets/images/Ellipse 496.png" alt="Umar img">
+                                    <div>
+                                        <p class="staff-name-name">Umar Sultan</p>
+                                        <p class="staff-name-email">umar.s@example.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="staff-role">Project Manager</td>
+                            <td class="staff-3dot"><img src="assets/images/Group 1.png" alt="3-dots"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="staff-name-td">
+                                    <img src="assets/images/Frame 576 (1).png" alt="Oyinloye img">
+                                    <div>
+                                        <p class="staff-name-name">Oyinloye Afolabi</p>
+                                        <p class="staff-name-email">oyin@example.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="staff-role">Graphic Designer</td>
+                            <td class="staff-3dot"><img src="assets/images/Group 1.png" alt="3-dots"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="staff-name-td">
+                                    <img src="assets/images/Ellipse 496 (1).png" alt="Enemuo img">
+                                    <div>
+                                        <p class="staff-name-name">Enemuo Johnson</p>
+                                        <p class="staff-name-email">john@example.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="staff-role">Backend Developer</td>
+                            <td class="staff-3dot"><img src="assets/images/Group 1.png" alt="3-dots"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="staff-name-td">
+                                    <img src="assets/images/Ellipse 496 (2).png" alt="Omosefe img">
+                                    <div>
+                                        <p class="staff-name-name">Omosofe Oludayo</p>
+                                        <p class="staff-name-email">o.o@example.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="staff-role">Digital Marketer</td>
+                            <td class="staff-3dot"><img src="assets/images/Group 1.png" alt="3-dots"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="staff-name-td">
+                                    <img src="assets/images/Ellipse 496 (2).png" alt="Omosefe img">
+                                    <div>
+                                        <p class="staff-name-name">Omosofe Oludayo</p>
+                                        <p class="staff-name-email">o.o@example.com</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="staff-role">Digital Marketer</td>
+                            <td class="staff-3dot"><img src="assets/images/Group 1.png" alt="3-dots"></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="summary-div">
+            <div class="summary-head">                    
+                <p class="summary-p">Summary</p>
+                <div class="summary-duration-div">
+                    <div class="summary-duration">
+                        <p class="duration">Duration</p>
+                        <p class="this-week">This week</p>
+                    </div>
+                    <img src="assets/images/chevron-down.png" alt="arrow">
+                </div>
+            </div>
+            <div class="graph-bar"><img src="assets/images/graphBar.png" alt="graphBar"></div>
+        </div>
+
+        <div class="all-customers">
+            <div class="all-customers-head"><p>All Customers</p></div>
+            <div class="all-customers-header">
+                <div class="search-div"><input class="input" placeholder="Search" type="text" /> <img class="img" src="assets/images/search 1.png" /></div>
+                <div class="all-customers-header-btns">
+                    <button><img src="assets/images/sort-descending.png" alt="sort-descending"/>Sort</button>
+                    <button><img src="assets/images/Filters lines.png" alt="filter icon"/>Filters</button>
+                </div>
+            </div>
+            <div class="all-customers-table">
+                <table>
+                    <tr>
+                        <th>Customer Name</th>
+                        <th>Phone Number</th>
+                        <th>Country</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Joel Abiodun Bisola</td>
+                        <td>(+234)9012376809</td>
+                        <td>Nigeria</td>
+                        <td>example@example.com</td>
+                        <td><img src="assets/images/Badge.png" alt="premium"></td>
+                        <td><img src="assets/images/Frame 572.png" alt="3-dots"></td>
+                    </tr>
+                    <tr>
+                        <td>James Jameson James</td>
+                        <td>(+234)9012376809</td>
+                        <td>Nigeria</td>
+                        <td>example@example.com</td>
+                        <td><img src="assets/images/Badge.png" alt="premium"></td>
+                        <td><img src="assets/images/Frame 572.png" alt="3-dots"></td>
+                    </tr>
+                    <tr>
+                        <td>Wah Izit Tuya</td>
+                        <td>(+234)9012376809</td>
+                        <td>Nigeria</td>
+                        <td>example@example.com</td>
+                        <td><img src="assets/images/Badge (1).png" alt="standard"></td>
+                        <td><img src="assets/images/Frame 572.png" alt="3-dots"></td>
+                    </tr>
+                    <tr>
+                        <td>Abubakar Rukayat</td>
+                        <td>(+234)9012376809</td>
+                        <td>Nigeria</td>
+                        <td>example@example.com</td>
+                        <td><img src="assets/images/Badge (1).png" alt="standard"></td>
+                        <td><img src="assets/images/Frame 572.png" alt="3-dots"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="all-customers-footer">
+                <button><img src="assets/images/arrow-left.png" alt="arrow-left"> Previous</button>
+                <div class="pagination-numbers">
+                    <div class="number">1</div>
+                    <div class="number-2">2</div>
+                    <div class="number-2">3</div>
+                </div>
+                <button><img src="assets/images/arrow-right.png" alt="arrow-right"> Next</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
 </html>
